@@ -1,0 +1,101 @@
+//// VARIABLES /////
+$white: rgb(255, 255, 255); 
+
+// Main  ///
+.app__container{   
+  padding-top: 15px;
+  width: 80%;
+  // max-width: 1170px;  
+  margin: 0 auto;     
+}
+
+// @media screen and (min-width: 800px) { 
+//   .row { 
+//     display: flex;   
+//     justify-content: space-between; 
+//   }
+// }
+
+// lOGIN SECTION 
+.header-logo { 
+    margin-top: 3em;
+
+    .header-hero{
+      margin-top: 10em;
+
+      .rol{
+        display: flex; 
+        justify-content: space-between;
+      }
+
+      .image{ 
+        width: 60%; 
+        
+        img{
+          width: 100%;
+          object-fit: cover;
+        }
+      }
+      
+      .form{
+        width: 50%;  
+        margin-top: -5em; 
+        padding-left: 120px;
+        padding-bottom: 50px;
+
+        .form__header{ 
+
+          .title-text{
+            font-size: 2.3em;
+            font-weight: bolder;
+            color: purple; 
+
+            span{
+              font-size: .5em;
+              font-weight: lighter;
+              color: black;
+            }
+          }
+        }
+ 
+
+          .action{ 
+            width: 100%; 
+
+            .form-input{
+              width: 70%;
+              border: 1px solid rgb(50, 45, 82);
+              background-color: transparent;
+              padding: 1rem;
+              font-size: 1rem;   
+            }
+            
+            .large{
+              color: rgb(132, 132, 211);
+              font-weight: bold;
+            }
+
+            .btn-l{
+              width: 75%;
+              box-shadow: 2px 2px 3px  rgba(53, 46, 46, 0.562);  
+              background-color: rgba(75, 75, 114, 0.534);
+              padding: 1rem;
+              text-align: center;
+              border: none;
+              border-radius: 10px;
+              font-size: 1rem; 
+              margin-top: 2rem;
+              transition: all 0.3s;
+              cursor: pointer;
+              color: white;
+
+              &:hover{ 
+              background-color: rgba(75, 75, 114, 0.678); 
+              }
+            }
+          } 
+      }
+    }
+} 
+
+// NAVBAR SECTION 
